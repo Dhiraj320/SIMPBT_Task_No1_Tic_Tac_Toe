@@ -5,6 +5,7 @@ class TicTacToe {
     static char[][] board;
 
     public TicTacToe() {
+        // indexing start from 1 not 0
         board = new char[4][4];
         initBoard();
     }
